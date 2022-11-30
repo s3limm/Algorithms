@@ -17,31 +17,16 @@ namespace Algorithms
             InitializeComponent();
         }
 
-        int ones;
-        int tens;
-        int hundreds;
+        string ones;
+        string tens;
+        string hundreds;
+        
 
         private void DigitsCheck(int numbers)
         {
             for (int i = 1; i <= 3; i++)
             {
-                numbers = numbers / 10;
-                
-                if(i == 1)
-                {
-                    ones = numbers;
-                    lblOnes.Text = numbers.ToString();
-                }
-                else if (i == 2)
-                {
-                    tens = numbers;
-                    lblTens.Text = numbers.ToString();
-                }
-                else if (i == 3)
-                {
-                    hundreds = numbers;
-                    lblHundreds.Text= numbers.ToString();
-                }
+             
             }
         }
         private void btnCheck_Click_1(object sender, EventArgs e)
