@@ -1,3 +1,4 @@
+using Algorithms.Projects.PrimeNumbers.Forms;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +18,7 @@ namespace Algorithms
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new NumberDigits());
+            Application.Run(new PrimeNumbers());
         }
     }
 }
