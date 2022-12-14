@@ -51,6 +51,7 @@ namespace Algorithms.Projects.PrimeNumbers.Forms
             do
             {
                 _numbers++;
+                result2 = true;
 
                 for (int i = 2; i < _numbers - 1; i++)
                 {
